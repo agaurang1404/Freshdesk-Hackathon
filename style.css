@@ -1,0 +1,102 @@
+body {
+	font-family: aerial;
+	font-size: 15px;
+	line-height: 1.6m;
+}
+
+li {
+	list-style: none;
+	font-size: 25px;
+}
+a {
+	text-decoration: none;	
+}
+label {
+	display: inline-block;
+	width: 180px;
+}
+input[type='text'] {
+	width: 97%;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px #ccc solid;
+}
+input[type='number'] {
+	width: 50%;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px #ccc solid;
+}
+.container {
+	width:60%;
+	margin: 0 auto;
+	overflow: auto;
+}
+header {
+	border-bottom: 3px #f4f4f4 solid;
+	text-align: center;
+	background-color: #0066FF;
+}
+footer {
+	border-top: 3px #f4f4f4 solid;
+	text-align: center;
+	background-color: #0066FF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	bottom:0;
+	position: fixed
+	background-color: #0066FF;
+}
+main {
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #cce0ff;
+	height: 470px;
+}
+a.start {
+	display: inline-block;
+	color: #666;
+	background-color: #000066;
+	border: 1px dotted #ccc;
+	padding: 6px 13px;
+}
+.current {
+	padding: 10px;
+	background-color: #000066;
+	border: #ccc dotted 1px;
+	margin: 20px 0 10px 0;
+	font-size: 25px;
+}
+.question {
+	font-size: 25px;
+}
+.form {
+	font-size: 20px;
+	padding: 10px 50px;
+	height: 300px;
+}
+.choices li {
+	font-size: 30px;
+	display: inline-block;
+}
+input[type='submit'] {
+	font-size: 25px;
+	color: #fff;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px #ccc solid;
+	background-color: #000066;
+}
+input[type=radio]+label {
+	color: #ff0066;
+	width: 48px;
+}
+#qst {
+	font-size: 25px;
+}
+@media only screen and (max-width: 960px) {
+	.container {
+		width: 80%;
+	}
+}
+{
